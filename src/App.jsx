@@ -60,8 +60,8 @@ function App() {
             </header>
 
 
-            <div className='bg-blue-500 p-6 flex-col'>
-            <div className='bg-green-200 pr-6  pl-6 flex-col items-start justify-start'>
+            <div className='p-6 flex-col'>
+            <div className='pr-6  pl-6 flex-col items-start justify-start'>
               <hr className=' w-[200px] h-3 bg-[#333333]  border-transparent ' />
               <h2 className='text-[31px] mt-5'>What are Design Principles?</h2>
               <p  className='text-[19px]'>Design Principles are a set of considerations that form the basis of any good product.</p>
@@ -83,24 +83,80 @@ function App() {
           </div>
             </div>
 
-            
-            
 
-            <div className='bg-gray-600 flex-col gap-4 pl-6 pr-6'>
-            <div className='flex-col'>
-              <div className='border-t-4 ml-6 w-[345px] border-y-4 border-[#333333] border-transparent'>
-                <h3 className='mt-2'>10 Principles of Good Read Design</h3>
-                <p  className=''>Highway England Strategic Design Panel</p>
-              </div>
-            </div>  
+            <div className='flex-col pl-6 pr-6'>
+              
+              <ul className=' ml-6  w-[345px]'>
+                <li className='border-y-4  border-[#333333] hover:bg-yellow-500'>
+                    <h3 className=' text-[19px] font-semibold'>10 Principles of Good Read Design</h3>
+                    <p  className='pb-5'>Highway England Strategic Design Panel</p>
+                </li>
 
-            <div className='bg-red-200 mt-8'>
-              <div className=''>
-                <h3 className=''>asdasdsa</h3>
-                <p  className=''>asdasdsadasds</p>
-              </div>
-            </div>   
+                <li className='border-[#333333] hover:bg-yellow-500'>
+                    <div >
+                        <h3 className=' text-[19px] font-semibold'>Airbnb's Design Principles</h3>
+                        <p  className='pb-5'>Airbnb</p>
+                    </div>  
+                </li>
+
+                <li className='border-y-4  border-[#333333] hover:bg-yellow-500'>
+                    <div >
+                        <h3 className=' text-[19px] font-semibold'>Principles</h3>
+                        <p  className='pb-5 '>Co-op</p>
+                    </div>  
+                </li>
+
+                <li className='border-[#333333] hover:bg-yellow-500'>
+                    <div >
+                        <h3 className=' text-[19px] font-semibold'>Design in the Era of the Algorithm</h3>
+                        <p  className='pb-5 '>Josh Clark</p>
+                    </div>  
+                </li>
+             
+                <li className='border-y-4 border-[#333333] hover:bg-yellow-500'>
+                    <div >
+                        <h3 className=' text-[19px] font-semibold'>NHS Design Principles</h3>
+                        <p  className='pb-5 '>NHS</p>
+                    </div>  
+                </li>
+
+                <li className='border-[#333333] hover:bg-yellow-500'>
+                    <div >
+                        <h3 className=' text-[19px] font-semibold'>Principles of Calm Technology</h3>
+                        <p  className='pb-5 '>Amber Case</p>
+                    </div>  
+                </li>
+
+                <li className='border-y-4 border-[#333333] hover:bg-yellow-500'>
+                    <div >
+                        <h3 className=' text-[19px] font-semibold'>Principles of Design</h3>
+                        <p  className='pb-5 '>Amber Case</p>
+                    </div>  
+                </li>
+
+                <li className=' border-[#333333] hover:bg-yellow-500'>
+                    <div >
+                        <h3 className=' text-[19px] font-semibold'>The Ten Principles of Inclusive Web Design</h3>
+                        <p  className='pb-5 text-[15px]'>Sandi Wassmer</p>
+                    </div>  
+                </li>
+
+
+                <li className='border-dotted border-[#333333] hover:bg-yellow-500'>
+                    <div className=''>
+                        <h3 className=' text-[19px] font-semibold'>Got something <br /> to add?</h3>
+                        <p  className='pb-5 text-[15px]'>Submit an example</p>
+                    </div>  
+                </li>
+             
+              </ul>
+
+
+                
+
             </div>
+
+
             </div>
             
             )
